@@ -5,8 +5,13 @@
   "repository": "https://github.com/Nandolinhares/api-rest-nodejs.git",
   "author": "Nando Linhares <fernandolinhares1920@globo.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.16.4"
+  },
   "devDependencies": {
     "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
   }
 }
