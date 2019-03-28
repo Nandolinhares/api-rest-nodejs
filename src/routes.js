@@ -15,4 +15,7 @@ routes.get('/products/:id', ProductController.show);
 //Rota de update
 routes.put('/products/:id', ProductController.update);
 
+//Rota de destroy
+routes.delete('/products/:id', ProductController.destroy);
+
 module.exports = routes;
