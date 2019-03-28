@@ -9,4 +9,10 @@ routes.get('/products', ProductController.index);
 //Rota de creating
 routes.post('/products', ProductController.store);
 
+//Rota de Show
+routes.get('/products/:id', ProductController.show);
+
+//Rota de update
+routes.put('/products/:id', ProductController.update);
+
 module.exports = routes;
