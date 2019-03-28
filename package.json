@@ -1,0 +1,12 @@
+{
+  "name": "api-rest-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Nandolinhares/api-rest-nodejs.git",
+  "author": "Nando Linhares <fernandolinhares1920@globo.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
