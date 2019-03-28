@@ -12,7 +12,7 @@ mongoose.connect('mongodb://localhost:1111/api-rest', { useNewUrlParser: true } 
 
 requireDir('./src/models');
 
-app.use('/', require("./src/routes"));
+app.use('/api', require("./src/routes"));
 
 app.get('/', (req, res) => {
    res.send("Hello World");
